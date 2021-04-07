@@ -1,0 +1,31 @@
+Instalacap Django:
+	python -m pip install Django
+
+-Configuracoes ambiente virtual:
+	*Instalacao:	
+		python -m pip install --user virtualenv
+
+- Criacao ambiente virtual:
+	py -m venv "nome do ambiente"
+
+- Entrar no ambiente:
+
+	.\'nome do ambiente\Scripts\Activate
+
+- Criar um projeto
+
+	django-admin starproject 'nome do projeto'
+
+-Entrar no projeto
+
+	.\'nome do projeto
+
+**Tudo que for feito nesse ambiente virtual nao interfere em nenhuma config do python em si(biblioteca, etc..) 
+
+- iniciar o projeto:
+	python manage.py runserver
+
+========================================================================================================================
+* Criando aplicacao principal
+	Dentro de igtiflixweb:	
+		python manage.py startapp 'nome da pagina principal'
